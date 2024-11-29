@@ -15,8 +15,7 @@
         "mhutchie.git-graph",
         "esbenp.prettier-vscode",
         "streetsidesoftware.code-spell-checker",
-        "wayou.vscode-todo-highlight",
-        "GitHub.copilot"
+        "wayou.vscode-todo-highlight"
       ]
     }
   }
