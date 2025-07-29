@@ -28,5 +28,8 @@ ENV PATH="/home/${USERNAME}/.local/bin:$PATH"
 # Set the default working directory
 WORKDIR /workspace
 
+# Install poetry plugin for using `poetry shell`
+RUN poetry self add poetry-plugin-shell
+
 # Set default user to vscode
 USER ${USERNAME}
